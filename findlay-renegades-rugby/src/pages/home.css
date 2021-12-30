@@ -1,0 +1,10 @@
+
+.container-app {
+    background-color: #F6F9FC;
+    position: relative;
+    height: 200vh;
+}
+
+hr.solid {
+    border: 12px solid #263151;
+}

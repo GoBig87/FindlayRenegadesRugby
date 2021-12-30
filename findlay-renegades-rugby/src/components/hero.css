@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+    --primary-color: #4db6ac;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.container-hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/images/hero.jpeg");
+    background-color: #cccccc;
+    background-size:cover;
+    background-position: center;
+    top: 0;
+    z-index: -999;
+}
+
+
+.hero {
+    text-align: center;
+}
+.hero h1 {
+    color: #F6F9FC;
+    font-size: xxx-large;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.hero h4 {
+    color: #F6F9FC;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.hero button {
+    background-color: #263151;
+    border-radius: 5px;
+    border: none;
+    color: #DEDEDEDE;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.hero-info {
+    margin: 0;
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*leaving hero and starting info section*/
+hr.solid {
+    border-top: 3px solid #263151;
+}
+
+
+
+.mobile-menu-exit {
+    float: right;
+    margin: .5em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 768px) {
+    .mobile-menu, .mobile-menu-exit {
+        display: none;
+    }
+    .hero-img {
+        width: 70%;
+        margin-top: -5em;
+    }
+}
+.footer {
+    width: 100%;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F6F9FC;
+}
+
+@media only screen and (min-width: 1080px) {
+
+}
+
+@media only screen and (min-width: 1450px) {
+
+}
+/*# sourceMappingURL=main.css.map */

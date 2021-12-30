@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+    --primary-color: #4db6ac;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.container-info {
+    background-color: #F6F9FC;
+    height: 100vh;
+    width: 100vw;
+    display: inline-flex;
+}
+
+.container-title {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-title h1 {
+    padding-top: 30vh;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.container-content {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding-top: 160px;
+}
+
+.content {
+    height: 70vh;
+    position: relative;
+    justify-content: center;
+    padding-inline-start: 70px;
+    padding-inline-end: 70px;
+}
+
+.content img{
+    border-radius: 50%;
+    max-width: 18vw;
+    padding: 10px;
+    margin: auto;
+}
+.content h4 {
+    text-align: center;
+    width: 20vw;
+    margin: auto;
+}
+
+.content caption {
+    text-align: center;
+    width: 20vw;
+    margin: auto;
+    color: #AAAAAA;
+}
+
+.content button {
+    background-color: #263151;
+    border-radius: 5px;
+    border: none;
+    color: #DEDEDEDE;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    max-width: 20vw;
+    margin-inline-start: 60px;
+    margin-inline-end: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}
+@media only screen and (min-width: 1080px) {
+
+}
+
+@media only screen and (min-width: 1450px) {
+
+}
